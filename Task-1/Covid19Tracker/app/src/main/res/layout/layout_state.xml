@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="15dp"
+    android:background="@drawable/rectangle_1"
+    android:elevation="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewStateName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:fontFamily="sans-serif-medium"
+        android:text="State"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:typeface="sans" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:alpha="0.8"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/colorSecondary"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Total Confirmed"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/textViewConfirmedCases"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="-10dp"
+                android:background="@color/colorOnSecondary"
+                android:fontFamily="sans-serif-black"
+                android:text="Number"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:typeface="serif" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/colorSecondary"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Total Deaths"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/textViewDeaths"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="-10dp"
+                android:background="@color/colorOnSecondary"
+                android:fontFamily="sans-serif-black"
+                android:text="Number"
+                android:textAlignment="center"
+                android:textColor="#FF0E0E"
+                android:textSize="14sp"
+                android:typeface="serif" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/colorSecondary"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Total Recovered"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/textViewRecovered"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="-10dp"
+                android:background="@color/colorOnSecondary"
+                android:fontFamily="sans-serif-black"
+                android:text="Number"
+                android:textAlignment="center"
+                android:textColor="#89FF00"
+                android:textSize="14sp"
+                android:typeface="serif" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
